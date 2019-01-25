@@ -5,132 +5,186 @@ it('should return a sensible default', () => {
   expect(translator.execute('')).toEqual('☠️');
 });
 
-it('should turn a into 😀', () => {
-  const translator = new Emojir();
-  expect(translator.execute('a')).toEqual('😀');
-});
+describe('converting letters', () => {
+  it('a into 😀', () => {
+    const translator = new Emojir();
+    expect(translator.execute('a')).toEqual('😀');
+  });
 
-it('should turn b into 🐝', () => {
-  const translator = new Emojir();
-  expect(translator.execute('b')).toEqual('🐝');
-});
+  it('b into 🐝', () => {
+    const translator = new Emojir();
+    expect(translator.execute('b')).toEqual('🐝');
+  });
 
-it('should turn c into 🌊', () => {
-  const translator = new Emojir();
-  expect(translator.execute('c')).toEqual('🌊');
-});
+  it('c into 🌊', () => {
+    const translator = new Emojir();
+    expect(translator.execute('c')).toEqual('🌊');
+  });
 
-it('should turn d into 🍆', () => {
-  const translator = new Emojir();
-  expect(translator.execute('d')).toEqual('🍆');
-});
+  it('d into 🍆', () => {
+    const translator = new Emojir();
+    expect(translator.execute('d')).toEqual('🍆');
+  });
 
-it('should turn e into 🐘', () => {
-  const translator = new Emojir();
-  expect(translator.execute('e')).toEqual('🐘');
-});
+  it('e into 🐘', () => {
+    const translator = new Emojir();
+    expect(translator.execute('e')).toEqual('🐘');
+  });
 
-it('should turn f into 🤬', () => {
-  const translator = new Emojir();
-  expect(translator.execute('f')).toEqual('🤬');
-});
+  it('f into 🤬', () => {
+    const translator = new Emojir();
+    expect(translator.execute('f')).toEqual('🤬');
+  });
 
-it('should turn g into 🤮', () => {
-  const translator = new Emojir();
-  expect(translator.execute('g')).toEqual('🤮');
-});
+  it('g into 🤮', () => {
+    const translator = new Emojir();
+    expect(translator.execute('g')).toEqual('🤮');
+  });
 
-it('should turn h into 💖', () => {
-  const translator = new Emojir();
-  expect(translator.execute('h')).toEqual('💖');
-});
+  it('h into 💖', () => {
+    const translator = new Emojir();
+    expect(translator.execute('h')).toEqual('💖');
+  });
 
-it('should turn i into 🤩', () => {
-  const translator = new Emojir();
-  expect(translator.execute('i')).toEqual('🤩');
-});
+  it('i into 🤩', () => {
+    const translator = new Emojir();
+    expect(translator.execute('i')).toEqual('🤩');
+  });
 
-it('should turn j into 😂', () => {
-  const translator = new Emojir();
-  expect(translator.execute('j')).toEqual('😂');
-});
+  it('j into 😂', () => {
+    const translator = new Emojir();
+    expect(translator.execute('j')).toEqual('😂');
+  });
 
-it('should turn k into 🤣', () => {
-  const translator = new Emojir();
-  expect(translator.execute('k')).toEqual('🤣');
-});
+  it('k into 🤣', () => {
+    const translator = new Emojir();
+    expect(translator.execute('k')).toEqual('🤣');
+  });
 
-it('should turn l into 🤷‍', () => {
-  const translator = new Emojir();
-  expect(translator.execute('l')).toEqual('🤷‍');
-});
+  it('l into 🤷‍', () => {
+    const translator = new Emojir();
+    expect(translator.execute('l')).toEqual('🤷‍');
+  });
 
-it('should turn m into 💪', () => {
-  const translator = new Emojir();
-  expect(translator.execute('m')).toEqual('💪');
-});
+  it('m into 💪', () => {
+    const translator = new Emojir();
+    expect(translator.execute('m')).toEqual('💪');
+  });
 
-it('should turn n into ⛔️', () => {
-  const translator = new Emojir();
-  expect(translator.execute('n')).toEqual('⛔️');
-});
+  it('n into ⛔️', () => {
+    const translator = new Emojir();
+    expect(translator.execute('n')).toEqual('⛔️');
+  });
 
-it('should turn o into 👌', () => {
-  const translator = new Emojir();
-  expect(translator.execute('o')).toEqual('👌');
-});
+  it('o into 👌', () => {
+    const translator = new Emojir();
+    expect(translator.execute('o')).toEqual('👌');
+  });
 
-it('should turn p into 😲', () => {
-  const translator = new Emojir();
-  expect(translator.execute('p')).toEqual('😲');
-});
+  it('p into 😲', () => {
+    const translator = new Emojir();
+    expect(translator.execute('p')).toEqual('😲');
+  });
 
-it('should turn q into 💦', () => {
-  const translator = new Emojir();
-  expect(translator.execute('q')).toEqual('💦');
-});
+  it('q into 💦', () => {
+    const translator = new Emojir();
+    expect(translator.execute('q')).toEqual('💦');
+  });
 
-it('should turn r into 🤘', () => {
-  const translator = new Emojir();
-  expect(translator.execute('r')).toEqual('🤘');
-});
+  it('r into 🤘', () => {
+    const translator = new Emojir();
+    expect(translator.execute('r')).toEqual('🤘');
+  });
 
-it('should turn s into 🐍', () => {
-  const translator = new Emojir();
-  expect(translator.execute('s')).toEqual('🐍');
-});
+  it('s into 🐍', () => {
+    const translator = new Emojir();
+    expect(translator.execute('s')).toEqual('🐍');
+  });
 
-it('should turn t into 🚍', () => {
-  const translator = new Emojir();
-  expect(translator.execute('t')).toEqual('🚍');
-});
+  it('t into 🚍', () => {
+    const translator = new Emojir();
+    expect(translator.execute('t')).toEqual('🚍');
+  });
 
-it('should turn u into 🦄', () => {
-  const translator = new Emojir();
-  expect(translator.execute('u')).toEqual('🦄');
-});
+  it('u into 🦄', () => {
+    const translator = new Emojir();
+    expect(translator.execute('u')).toEqual('🦄');
+  });
 
-it('should turn v into 🍕', () => {
-  const translator = new Emojir();
-  expect(translator.execute('v')).toEqual('🍕');
-});
+  it('v into 🍕', () => {
+    const translator = new Emojir();
+    expect(translator.execute('v')).toEqual('🍕');
+  });
 
-it('should turn w into 🤠', () => {
-  const translator = new Emojir();
-  expect(translator.execute('w')).toEqual('🤠');
-});
+  it('w into 🤠', () => {
+    const translator = new Emojir();
+    expect(translator.execute('w')).toEqual('🤠');
+  });
 
-it('should turn x into 🤢', () => {
-  const translator = new Emojir();
-  expect(translator.execute('x')).toEqual('🤢');
-});
+  it('x into 🤢', () => {
+    const translator = new Emojir();
+    expect(translator.execute('x')).toEqual('🤢');
+  });
 
-it('should turn y into 🧐', () => {
-  const translator = new Emojir();
-  expect(translator.execute('y')).toEqual('🧐');
-});
+  it('y into 🧐', () => {
+    const translator = new Emojir();
+    expect(translator.execute('y')).toEqual('🧐');
+  });
 
-it('should turn z into 😴', () => {
-  const translator = new Emojir();
-  expect(translator.execute('z')).toEqual('😴');
-});
+  it('z into 😴', () => {
+    const translator = new Emojir();
+    expect(translator.execute('z')).toEqual('😴');
+  });
+})
+
+describe('converting numbers', () => {
+  it('1 into 😄', () => {
+    const translator = new Emojir();
+    expect(translator.execute('1')).toEqual('😄');
+  });
+
+  it('2 into 😁', () => {
+    const translator = new Emojir();
+    expect(translator.execute('2')).toEqual('😁');
+  });
+
+  it('3 into 😆', () => {
+    const translator = new Emojir();
+    expect(translator.execute('3')).toEqual('😆');
+  });
+
+  it('4 into 😘', () => {
+    const translator = new Emojir();
+    expect(translator.execute('4')).toEqual('😘');
+  });
+
+  it('5 into 😊', () => {
+    const translator = new Emojir();
+    expect(translator.execute('5')).toEqual('😊');
+  });
+
+  it('6 into 😇', () => {
+    const translator = new Emojir();
+    expect(translator.execute('6')).toEqual('😇');
+  });
+
+  it('7 into 🙂', () => {
+    const translator = new Emojir();
+    expect(translator.execute('7')).toEqual('🙂');
+  });
+
+  it('8 into 😉', () => {
+    const translator = new Emojir();
+    expect(translator.execute('8')).toEqual('😉');
+  });
+
+  it('9 into 😍', () => {
+    const translator = new Emojir();
+    expect(translator.execute('9')).toEqual('😍');
+  });
+
+  it('0 into 🤪', () => {
+    const translator = new Emojir();
+    expect(translator.execute('0')).toEqual('🤪');
+  });
+})

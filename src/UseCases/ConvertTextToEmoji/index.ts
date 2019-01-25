@@ -29,6 +29,16 @@ export default class Emojir {
     this.tings.set('x','🤢');
     this.tings.set('y','🧐');
     this.tings.set('z','😴');
+    this.tings.set('1','😄');
+    this.tings.set('2','😁');
+    this.tings.set('3','😆');
+    this.tings.set('4','😘');
+    this.tings.set('5','😊');
+    this.tings.set('6','😇');
+    this.tings.set('7','🙂');
+    this.tings.set('8','😉');
+    this.tings.set('9','😍');
+    this.tings.set('0','🤪');
   }
   execute(text: string): string {
     return this.tings.get(text) || '☠️';
