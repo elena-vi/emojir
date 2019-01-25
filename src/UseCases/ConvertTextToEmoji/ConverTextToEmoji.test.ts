@@ -1,4 +1,3 @@
-import Reacr from 'react';
 import Emojir from '.';
 
 it('should return a sensible default', () => {

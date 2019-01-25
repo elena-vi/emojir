@@ -1,3 +1,5 @@
+import Reacr from 'react';
+
 export default class Emojir {
   private tings: Map<string, string> = new Map<string, string>();
   constructor() {
