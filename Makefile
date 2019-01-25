@@ -1,10 +1,13 @@
 .PHONY: setup, serve
 
 setup:
-	npm install
+	docker-compose build
 
 serve:
-	npm start
+	docker-compose up
 
 test:
-	npm test
+	docker-compose run --rm app npm test
+
+storybook:
+	docker-compose run --rm storybook
